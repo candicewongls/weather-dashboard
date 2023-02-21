@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  :root {
+    --outer-space: #2b3035;
+    --bright-turquoise: #26eec9;
+    --gin: #e8f2ec;
+    --heliotrope: #e863ec;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #3e74cb;
+    background-image: url("./image/forecast-background.jpeg");
+  }
+  
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  .headerSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+.input-group,  .form-group, .input-group-append, .form {
+  width: 100%;
+  padding-right: 0px;
+
+  margin-right: 0px !important;
+}
+
+hr.weather {
+  border-top: 2px solid grey;
+  width: 100%;
+}
+
+.weather-search {
+      border-radius: 5px !important;
+      font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+}
+.today {
+  padding-left: 0px;
+}
+#forecastTitle {
+  padding-left: 5px;
+}
+.card {
+    background-color: #0180f8;
+    padding-right: 0px !important;
+    padding-left: 5px !important;
+}
+
+.col-md-2 {
+    padding-right: 0px !important;
+    padding-left: 5px !important;
+}
+.col-md-3 {
+  padding-right: 0px !important;
+  padding-left: 5px !important;
+}
+.col-md-9 {
+  padding-right: 0px !important;
+  padding-left: 20px !important;
+}
+
+.card-body {
+  padding-left: 0px;
+}
+
+.card-text, .card-title {
+    color: rgb(0, 4, 4);
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  height: 80%;
+  width: 100%;
+  padding: 1.25rem 2rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1em;
+
+  text-transform: capitalize;
+  letter-spacing: 0.15rem;
+  border: 0;
+  background-color: rgb(5, 195, 247);
+}
+
+.btn-outline {
+  color: rgba(255, 255, 255, 0.881);
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.806);
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  color: white;
+  border-color: yellow;
+  background-color: blue;
+}
+
+.btn {
+  border-radius: 5px !important;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+}
+
+.btn-xl {
+  padding: 15px 45px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#forecast > div {
+    border: 1px solid black;
+    padding: 8px;
+}
